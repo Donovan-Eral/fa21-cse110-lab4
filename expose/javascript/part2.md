@@ -9,3 +9,9 @@
 9. The code causes an error because ``i`` is defined using ``let`` which means it cannot be accessed outside of the loop-block.
 10. Line 12 will print ``3`` because ``length`` is not modified in the function and it is being used in the same scope that it was defined in.
 11. The function will return an array of the discounted prices. This is because none of the variables are used outside of their scope and none of the ``const`` variables are changed in a way that is not allowed. ``const`` arrays can have elements pushed into it but it cannot be reassigned.
+12.
+- ``student.name``
+- ``student['Grad Year']``
+- ``student.greeting()``
+- ``student['Favorite Teacher'].name``
+- ``student.corseLoad[0]``

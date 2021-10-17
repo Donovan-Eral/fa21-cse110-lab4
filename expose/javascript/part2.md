@@ -32,3 +32,6 @@
 - ``false`` becasue ``true`` gets mapped to ``1`` and ``1 != 2``. 
 - ``true`` because ``Boolean(2)`` maps to the boolean value ``true`` and since both sides of the ``===`` operator are of the same type and are equal.
 15. ``==`` operator does type conversions to match their types but ``===`` does not do type conversions.
+
+17. The result will be an array of ``doSomething`` on each of the elements in the passed in array. So, it will return ``[2,4,6]``. The function ``doSomething`` is passed in as an argument. The ``for`` loop iterates through all the elements in the array ``[1,2,3]`` running the function on each element in the array and inserting it into ``newArr``. the ``doSomething`` function multiples the value by ``2``. The ``modifyArray`` function then returns the array with the new values.
+18. The output of the code is ``1``, ``4``, ``3``, and ``2``. 

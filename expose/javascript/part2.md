@@ -18,10 +18,9 @@
 13.
 - ``'32'`` because integers get mapped to their string representation when added to a string.
 - ``1`` because strings get mapped to their integer representation when subtracted by an integer.
-- ``3`` because null gets mapped to 0 when added to a string.
-- ````
-- ````
-- ````
-- ````
-- ````
-- ````
+- ``3`` because null gets mapped to ``0`` when added to a string.
+- ``'3null'`` because ``null`` gets mapped to a string when added to a string.
+- ``4`` because ``true`` gets mapped to ``1`` when added to an integer.
+- ``0`` because ``false`` and ``null`` both get mapped to ``0`` when added together.
+- ``'3undefined'`` because undefined gets mapped to a string when added to a string.
+- ``NaN`` because a string gets mapped to an integer when subtracted by undefined and subtracting an integer by something undefined will result in something that is not a number.

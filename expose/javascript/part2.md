@@ -31,4 +31,4 @@
 - ``false`` because the ``===`` operator doesnt do type conversion.
 - ``false`` becasue ``true`` gets mapped to ``1`` and ``1 != 2``. 
 - ``true`` because ``Boolean(2)`` maps to the boolean value ``true`` and since both sides of the ``===`` operator are of the same type and are equal.
-15.
+15. ``==`` operator does type conversions to match their types but ``===`` does not do type conversions.

@@ -15,3 +15,13 @@
 - ``student.greeting()``
 - ``student['Favorite Teacher'].name``
 - ``student.corseLoad[0]``
+13.
+- ``'32'`` because integers get mapped to their string representation when added to a string.
+- ``1`` because strings get mapped to their integer representation when subtracted by an integer.
+- ``3`` because null gets mapped to 0 when added to a string.
+- ````
+- ````
+- ````
+- ````
+- ````
+- ````

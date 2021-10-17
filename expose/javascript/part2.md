@@ -24,3 +24,11 @@
 - ``0`` because ``false`` and ``null`` both get mapped to ``0`` when added together.
 - ``'3undefined'`` because undefined gets mapped to a string when added to a string.
 - ``NaN`` because a string gets mapped to an integer when subtracted by undefined and subtracting an integer by something undefined will result in something that is not a number.
+14.
+- ``true`` because strings get mapped to its integer value when using a comparison operator with another integer.
+- ``false`` because the comparison operator on two strings compares character by character to find the which is greater.
+- ``true`` because the equals operator on an integer and a string maps the character to the integer representation.
+- ``false`` because the ``===`` operator doesnt do type conversion.
+- ``false`` becasue ``true`` gets mapped to ``1`` and ``1 != 2``. 
+- ``true`` because ``Boolean(2)`` maps to the boolean value ``true`` and since both sides of the ``===`` operator are of the same type and are equal.
+15.

@@ -1,0 +1,2 @@
+1. The bug is that the function ``calculateSum`` is concatinating two strings because the values being passed in are strings.
+2. The solution would be to typecast the strings to integers before adding them together.
